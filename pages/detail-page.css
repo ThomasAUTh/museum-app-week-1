@@ -1,5 +1,5 @@
 body {
-    background: #979797;
+    background: #c21a1a;
     font-family: 'Inconsolata', monospace;
     text-align: center;
     margin: 0;
@@ -7,7 +7,7 @@ body {
     width: 100%;
 }
 main {
-    background: rgb(92, 184, 212);
+    background: rgb(129, 193, 212);
     width: 90%;
     margin: auto;
     border-radius: 5px;
@@ -19,3 +19,51 @@ main {
     margin-top: 20px;
     margin-bottom: 20px;
    }
+
+.comment {
+    margin: 1rem auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    max-width: 70%;
+    min-width: 15rem;
+    background-color: rgba(255, 0, 0, 0.575)
+}
+
+form {
+    margin: 2rem auto;
+    width: 50%;
+    min-width: 15rem;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.formSection {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+button {
+    padding: 0;
+    font: inherit;
+    background-color: white;
+    border: solid 1px transparent;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    color: black;
+}
+label {
+    display: inline-block;
+    width: 80%;
+}
+input, textarea {
+    width: 80%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    min-height: 2rem;
+    font-size: 1.2rem;
+}
+textarea {
+    vertical-align: top;
+    height: 5rem;
+}
