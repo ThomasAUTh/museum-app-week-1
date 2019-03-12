@@ -37,3 +37,9 @@ h1 {
     p {
     font-size: 2.5em;
 }
+.artObjectsm {
+    width: 450px;
+    height: 600px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
