@@ -16,5 +16,30 @@ main {
   }
 
 h1 {
-    margin: 3rem 1rem 6rem 1rem;
+    display: block;
+    font-size: 3em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.artObject {
+    max-width: 85%;
+    max-height: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+
+#gallery {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 1.5em;
+    }
+
+p {
+    font-size: 2.5em;
 }
