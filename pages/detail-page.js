@@ -10,10 +10,10 @@ function submitComment() {
     const h4 = document.createElement('h4')
     const p = document.createElement('p')
 // Adjusting elements
-    h3.innerHTML = `${name} said:`
+    h4.innerHTML = `${name} said:`
     p.innerHTML = msg
     comment.classList.add('comment')
-    comment.appendChild(h3)
+    comment.appendChild(h4)
     comment.appendChild(p)
 // Display the elements on the page
     const commentSection = document.getElementById('comments')
